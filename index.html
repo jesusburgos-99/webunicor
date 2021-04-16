@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+ <!-- Jesus Burgos Huertas - Unicor   -->
+
+    <title>UnicorShop</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <nav class="navbar navbar-expand-md justify-content-between">
+            <!-- nombre de la pagina -->
+            <a class="navbar-brand" href="#">UnicorShop</a>
+          
+            <!-- carro de compra   -->
+            <div class="btn-group">
+              <img src="img/ccomprar.png" class="img-fluid" height="70px" width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></img>
+              <div id="carrito" class="dropdown-menu dropdown-menu-right">
+                
+                <table id="listascarro" class="table">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <a href="#" id="eliminarcarro" class="btn btn-primary btn-block">Vaciar Carro</a>
+          
+              </div>
+            </div>
+          </nav>
+          
+
+</header>
+
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="display-4 mt-4">Lista de celulares</h1>
+            <p class="lead">Bienvenidos a nuestra tienda de celulares importados, ofrecemos los mejores topes de gama.</p>
+        </div>
+
+        <div class="container" id="enumerarprodu">
+            
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">RED MAGIC 6</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/rm6.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">2.583.352</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>12 GB de ram</li>
+                            <li>Multicolor</li>
+                            <li>128 GB</li>
+                            <div>
+                                <img src="img/revision.png" alt="">
+          
+                            </div>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary anadiralcarro" data-id="1">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">iPhone 12 </h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/ip12.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">3.921.291</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>Procesador Apple A14 Bionic</li>
+                            <li>Multicolor</li>
+                            <li>64/128/256 GB</li>
+                            <div>
+                                <img src="img/revision.png" alt="">
+          
+                            </div>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary anadiralcarro" data-id="2">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Xiaomi Mi 10</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/x10.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">2.282.208</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>8 GB de ram</li>
+                            <li>Multicolor</li>
+                            <li>256 GB</li>
+                            <div>
+                                <img src="img/revision.png" alt="">
+          
+                            </div>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary anadiralcarro" data-id="3">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Samsung Galaxy A71</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/a71.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">2.022.921</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>6/8 GB</li>
+                            <li>Multicolor</li>
+                            <li>128 GB MicroSD hasta 512 GB</li>
+                            <div>
+                                <img src="img/revision.png" alt="">
+          
+                            </div>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary anadiralcarro" data-id="4">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">OnePlus 9 Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/o9.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">4.309.802</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>12 GB RAM</li>
+                            <li>Plateado</li>
+                            <li>256 GB</li>
+                            <div>
+                                <img src="img/revision.png" alt="">
+          
+                            </div>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary anadiralcarro" data-id="5">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold"> Oppo Find X2 Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/opo.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">4.309.697</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>12 GB LPDDR5</li>
+                            <li>Multicolor</li>
+                            <li> 512 GB</li>
+                            <div>
+                                <img src="img/revision.png" alt="">
+          
+                            </div>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary anadiralcarro" data-id="6">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/carro.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+
+</html>
